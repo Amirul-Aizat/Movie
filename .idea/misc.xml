@@ -3,9 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/USER/AndroidStudioProjects/Movie/app/src/main/res/layout/activity_dashboard.xml" value="0.264" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Movie/app/src/main/res/drawable/background.xml" value="0.1005" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Movie/app/src/main/res/drawable/ic_dashboard.xml" value="0.1005" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Movie/app/src/main/res/drawable/ic_star.xml" value="0.1" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Movie/app/src/main/res/drawable/rounded_corner.xml" value="0.1675" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Movie/app/src/main/res/layout/activity_dashboard.xml" value="0.1" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/Movie/app/src/main/res/layout/activity_main.xml" value="0.2359375" />
-        <entry key="..\:/Users/USER/AndroidStudioProjects/Movie/app/src/main/res/layout/activity_movie_details.xml" value="0.25" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/Movie/app/src/main/res/layout/activity_movie_details.xml" value="0.1" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/Movie/app/src/main/res/layout/dimens.xml" value="0.17592592592592593" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/Movie/app/src/main/res/layout/item_header.xml" value="0.24895833333333334" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/Movie/app/src/main/res/layout/movie_item.xml" value="0.20512820512820512" />

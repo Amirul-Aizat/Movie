@@ -43,6 +43,7 @@ class MovieAdapter(private val context: Context) :
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val movie = movies[position]
+        holder.movieTitle.text = movie.title
         val picasso: RequestCreator = Picasso.get().load("https://image.tmdb.org/t/p/w500" + movie.posterPath)
         picasso.resize(670, 950)
         picasso.centerCrop()
@@ -55,6 +56,11 @@ class MovieAdapter(private val context: Context) :
                 putExtra("moviePlot", movie.overview)
                 putExtra("movieDirector", movie.director?:"")
                 putExtra("movieStars", movie.stars?.joinToString() ?: "")
+                putExtra("moviePoster", "https://image.tmdb.org/t/p/w500" + movie.posterPath)
+                putExtra("movieBackdrop", "https://image.tmdb.org/t/p/w500" + movie.backdropPath)
+                putExtra("releaseDate", movie.releaseDate)
+                putExtra("voteCount", movie.voteCount)
+                putExtra("voteAverage", movie.voteAverage)
             }
             context.startActivity(intent)
         }
@@ -66,6 +72,7 @@ class MovieAdapter(private val context: Context) :
 
     inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val posterImageView: ImageView = itemView.findViewById(R.id.poster_image_view)
+        val movieTitle: TextView = itemView.findViewById(R.id.movie_title)
     }
 }
 
